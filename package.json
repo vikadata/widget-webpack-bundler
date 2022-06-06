@@ -1,6 +1,6 @@
 {
   "name": "@vikadata/widget-webpack-bundler",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Webpack bundler for @vikadata/widget-cli",
   "main": "dist/index.js",
   "scripts": {
