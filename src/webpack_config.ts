@@ -69,7 +69,6 @@ export const createBaseWebpackConfig = (option: IWebpackOptions): IWebpackConfig
               modules: {
                 getLocalIdent: (context: any, localIdentName: any, localName: string) => {
                   /** Enable sandbox allow external css */
-                  console.log('localName === ', localName, (widgetConfig.sandbox ? '' : widgetConfig.packageId) + localName)
                   return (widgetConfig.sandbox ? '' : widgetConfig.packageId) + localName;
                 },
               }
