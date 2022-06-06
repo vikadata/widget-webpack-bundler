@@ -1,0 +1,7 @@
+*-debug.log
+*-error.log
+/dist
+/package-lock.json
+*.tsbuildinfo
+node_modules
+/.nyc_output

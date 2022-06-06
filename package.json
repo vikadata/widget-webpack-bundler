@@ -1,0 +1,43 @@
+{
+  "name": "@vikadata/widget-webpack-bundler",
+  "version": "0.0.1",
+  "description": "Webpack bundler for @vikadata/widget-cli",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -rf dist && rm -f tsconfig.tsbuildinfo && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikadata/widget-webpack-bundler.git"
+  },
+  "keywords": [
+    "vika",
+    "vikadata",
+    "widget-cli",
+    "webpack"
+  ],
+  "author": "vikadata",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vikadata/widget-webpack-bundler/issues"
+  },
+  "homepage": "https://github.com/vikadata/widget-webpack-bundler#readme",
+  "dependencies": {
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "@babel/preset-typescript": "^7.17.12",
+    "@vikadata/widget-cli": "^0.0.16",
+    "babel-loader": "^8.2.5",
+    "babel-plugin-styled-components": "^2.0.7",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.1",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.3.0",
+    "webpack": "^5.72.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.38",
+    "typescript": "^4.7.2"
+  }
+}
